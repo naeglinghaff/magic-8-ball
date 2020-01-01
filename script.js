@@ -10,7 +10,7 @@ magic8Ball.Answers = ["It is certain", "It is decidedly so", "Without a doubt", 
 //the method that will select a answer at random and print the question and the answer to the console
 
 magic8Ball.shake = function (question) {
-	//getting us a random number we can use to select an entry in our array
+//getting us a random number we can use to select an entry in our array
 var randomNumber = Math.random();
 var randomNumberForOurList = this.Answers.length * randomNumber;
 var cleanNumber = Math.floor(randomNumberForOurList);
